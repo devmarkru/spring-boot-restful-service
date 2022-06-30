@@ -1,11 +1,11 @@
-package ru.devmark.rest.controller;
+package ru.devmark.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.devmark.rest.model.Profile;
-import ru.devmark.rest.service.ProfileService;
+import ru.devmark.model.Profile;
+import ru.devmark.service.ProfileService;
 
 @RestController
 @RequestMapping(value = "/profile")

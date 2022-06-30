@@ -1,8 +1,8 @@
-package ru.devmark.rest.service;
+package ru.devmark.service;
 
 import org.springframework.stereotype.Service;
-import ru.devmark.rest.exception.ProfileNotFoundException;
-import ru.devmark.rest.model.Profile;
+import ru.devmark.exception.ProfileNotFoundException;
+import ru.devmark.model.Profile;
 
 @Service
 public class ProfileServiceMock implements ProfileService {
@@ -14,7 +14,8 @@ public class ProfileServiceMock implements ProfileService {
             return new Profile(
                     personId,
                     "Иван",
-                    "Иванов"
+                    "Иванов",
+                    23
             );
         } else {
             throw new ProfileNotFoundException(personId);

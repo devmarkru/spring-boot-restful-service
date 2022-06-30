@@ -1,8 +1,9 @@
-package ru.devmark.rest.model;
+package ru.devmark.model;
 
 public record Profile(
         int id,
         String firstName,
-        String lastName
+        String lastName,
+        int age
 ) {
 }

@@ -1,6 +1,6 @@
-package ru.devmark.rest.service;
+package ru.devmark.service;
 
-import ru.devmark.rest.model.Profile;
+import ru.devmark.model.Profile;
 
 public interface ProfileService {
 
