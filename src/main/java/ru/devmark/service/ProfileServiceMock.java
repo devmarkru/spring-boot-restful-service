@@ -21,4 +21,16 @@ public class ProfileServiceMock implements ProfileService {
             throw new ProfileNotFoundException(personId);
         }
     }
+
+    @Override
+    public void createProfile(String firstName, String secondName, int age) {
+    }
+
+    @Override
+    public void updateProfile(String firstName, String secondName, int age, int id) {
+    }
+
+    @Override
+    public void deleteProfile(int id) {
+    }
 }
