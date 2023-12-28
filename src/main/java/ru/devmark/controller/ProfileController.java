@@ -1,12 +1,11 @@
 package ru.devmark.controller;
 
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import ru.devmark.model.Profile;
 import ru.devmark.model.ProfileRequest;
 import ru.devmark.service.ProfileService;
-
-import javax.validation.Valid;
 
 @RestController
 @RequestMapping(value = "/profiles")

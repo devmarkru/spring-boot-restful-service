@@ -1,5 +1,5 @@
 # Spring Boot Restful Service
-Пример простого restful-приложения на базе **Spring Boot** и **Java 17**.
+Пример простого restful-приложения на базе **Spring Boot** и **Java 21**.
 
 Подробности вы можете прочитать в статье [Spring Boot Restful Service](https://devmark.ru/article/spring-boot-resful-service).
 
